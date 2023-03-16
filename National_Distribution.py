@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv('/Users/sarge/Downloads/kl_cleaned.csv')
+df = pd.read_csv('/Users/sarge/Downloads/nd_cleaned.csv')
 
 # Count the number of players from each nationality
 nationality_counts = df['Nationality'].value_counts()
